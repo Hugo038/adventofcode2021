@@ -1,5 +1,3 @@
-from collections import Counter
-
 with open("inputs/day3.txt") as f:
     binary = [(line.strip()) for line in f]
     binary_string_list = [list(line) for line in binary]
