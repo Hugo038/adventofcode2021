@@ -24,7 +24,6 @@ def check_bingo(board):
                     [15, 16, 17, 18, 19],
                     [20, 21, 22, 23, 24]]
     for i in combinations:
-        sum_row = [board[j] for j in i]
         if sum([board[j] for j in i]) == 500:
             return 'Bingo'
 
